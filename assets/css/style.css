@@ -16,7 +16,8 @@ body {
   --padding-container: 100px 0;
   /* color titulo*/
   --color-title: #001a49;
-  
+  scroll-behavior: smooth;
+
 }
 
 .container {
@@ -79,6 +80,14 @@ body {
 
 .nav__items {
   list-style: none;
+}
+
+.nav__items a:hover::before{
+  transform: scaleX(1);
+}
+
+.nav__links[data-animation="center"] a::before{
+  transform-origin:center;
 }
 
 .nav__links {
@@ -467,6 +476,12 @@ body {
   padding-bottom: 60px;
 }
 
+.footer__element{
+  display: block;
+  margin: 50px auto;
+  color: #fff;
+}
+
 .nav--footer{
   padding-bottom: 20px;
   display: grid;
@@ -487,6 +502,8 @@ body {
   display: flex;
   overflow: hidden;
 }
+
+
 
 .footer__input{
   background-color: #fff;
@@ -533,7 +550,7 @@ body {
 
 /* Media queries */
 
-@media (max-width:800px){
+@media (max-width:1270px){
   .nav__menu{
       display: block;
   }
