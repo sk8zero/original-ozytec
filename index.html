@@ -10,10 +10,12 @@
   <title>OZYTec</title>
 
   <!-- Icono -->
-  <link rel="shortcut icon" href="assets/images/icon.svg" type="image/x-icon" />
+  <link rel="shortcut icon" href="assets/images/ozytec.png" type="image/x-icon" />
 
   <!-- CSS -->
   <link rel="stylesheet" href="assets/css/style.css" />
+  <!-- Boxicons CSS -->
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -65,7 +67,7 @@ El Ozono es el desinfectante natural más poderoso sobre la Tierra.">
           <a href="#Inicio" class="nav__links">Inicio</a>
         </li>
         <li class="nav__items">
-          <a href="#" class="nav__links">Acerca de</a>
+          <a href="#2" class="nav__links">Acerca de</a>
         </li>
         <li class="nav__items">
           <a href="#" class="nav__links">Contacto</a>
@@ -92,7 +94,7 @@ El Ozono es el desinfectante natural más poderoso sobre la Tierra.">
   <!-- body page -->
 
   <main>
-    <section class="hero__container container">
+    <section id="2" class="hero__container container">
       <h1 class="hero__title">Aprende CSS3 desde CERO hasta dominarlo.</h1>
       <p class="hero__paragraph">Elige aprender CSS de una vez por todas, una vez que termines este curso serás
         capaz de crear cualquier layout con CSS y crear tus propias animaciones.</p>
@@ -102,30 +104,34 @@ El Ozono es el desinfectante natural más poderoso sobre la Tierra.">
 
     <main>
       <section class="container about">
-        <h2 class="subtitle">¿Qué aprenderás en este curso?</h2>
-        <p class="about__paragraph">Todo lo necesario y obligatorio de CSS, (Flexbox, Grid, Custom properties,
-          Position, Animaciones, Box Model y más)</p>
+        <h2 class="subtitle">Equipos para procesos industriales</h2>
+        <p class="about__paragraph">El Ozono es un gran aliado en múltiples procesos industriales. Un Ozonizador es una
+          inversión: reduce costos y aumenta la calidad de los productos finales.</p>
 
         <div class="about__main">
           <article class="about__icons">
             <img src="assets/images/home-alt.svg" class="about__icon">
-            <h3 class="about__title">CSS Layouts</h3>
-            <p class="about__paragrah">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae tempore
-              porro eius facilis?</p>
+            <h3 class="about__title">Hogares</h3>
+            <p class="about__paragrah">Elimina olores a comida, humedad, cigarrillo, encierro, etc. Mata ácaros y genera
+              ambientes saludables.</p>
           </article>
 
           <article class="about__icons">
             <img src="assets/images/briefcase.svg" class="about__icon">
-            <h3 class="about__title">Animaciones</h3>
-            <p class="about__paragrah">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae tempore
-              porro eius facilis?</p>
+            <h3 class="about__title">Lugar de trabajo
+            </h3>
+            <p class="about__paragrah">Disminuye la densidad del aire generando ambientes livianos, limpios y
+              saludables.
+
+            </p>
           </article>
 
           <article class="about__icons">
             <img src="assets/images/car.svg" class="about__icon">
-            <h3 class="about__title">Sass</h3>
-            <p class="about__paragrah">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae tempore
-              porro eius facilis?</p>
+            <h3 class="about__title">Veiculos</h3>
+            <p class="about__paragrah">Elimina olores a comida, cigarrillo, etc.
+
+            </p>
           </article>
         </div>
       </section>
@@ -133,11 +139,10 @@ El Ozono es el desinfectante natural más poderoso sobre la Tierra.">
       <section class="knowledge">
         <div class="knowledge__container container">
           <div class="knowledege__texts">
-            <h2 class="subtitle">Curso completo de CSS3. ¡Domina CSS de una vez por todas!</h2>
-            <p class="knowledge__paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi,
-              aliquam nemo in facere suscipit at delectus unde labore ad officia iste accusantium eaque
-              aperiam laborum est voluptate totam? Modi, obcaecati?</p>
-            <a href="#" class="cta">Entra al curso</a>
+            <h2 class="subtitle">Instala la aplicación OZYTec </h2>
+            <p class="knowledge__paragraph">La aplicación OZYTec es un software para el control de los equipos OZX19
+              (Generadores de Ozono)</p>
+            <a href="assets/apk/OZYTec.apk " class="cta">Descargar</a>
           </div>
 
           <figure class="knowledge__picture">
@@ -152,6 +157,7 @@ El Ozono es el desinfectante natural más poderoso sobre la Tierra.">
 
         <div class="price__table">
           <div class="price__element">
+            <img src="assets/images/ozonizer1.jpg" class="price__img" alt="">
             <p class="price__name">Flexbox</p>
             <h3 class="price__price">Free</h3>
 
@@ -166,6 +172,7 @@ El Ozono es el desinfectante natural más poderoso sobre la Tierra.">
 
 
           <div class="price__element price__element--best">
+            <img src="assets/images/ozonizer2.jpg" class="price__img" alt="">
             <p class="price__name">Grid</p>
             <h3 class="price__price">$30/mes</h3>
 
@@ -178,7 +185,7 @@ El Ozono es el desinfectante natural más poderoso sobre la Tierra.">
             <a href="#" class="price__cta">Empieza ahora</a>
           </div>
 
-
+          <!--
           <div class="price__element">
             <p class="price__name">Animaciones</p>
             <h3 class="price__price">$40/mes</h3>
@@ -192,10 +199,10 @@ El Ozono es el desinfectante natural más poderoso sobre la Tierra.">
             <a href="#" class="price__cta">Empieza ahora</a>
           </div>
 
-
+-->
         </div>
       </section>
-
+      <!--
       <section class="testimony">
         <div class="testimony__container container">
           <img src="assets/images/leftarrow.svg" class="testimony__arrow" id="before">
@@ -257,11 +264,11 @@ El Ozono es el desinfectante natural más poderoso sobre la Tierra.">
 
           <img src="assets/images/rightarrow.svg" class="testimony__arrow" id="next">
         </div>
-      </section>
+      </section>-->
     </main>
     <section class="questions container">
       <h2 class="subtitle">Preguntas frecuentes</h2>
-   <!--   <p class="questions__paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, porro
+      <!--   <p class="questions__paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, porro
         doloribus neque perspiciatis sapiente fuga.</p>
 -->
       <section class="questions__container">
@@ -273,7 +280,10 @@ El Ozono es el desinfectante natural más poderoso sobre la Tierra.">
               </span>
             </h3>
 
-            <p class="questions__show">El ozono (O3) es una molécula compuesta por tres átomos de oxígeno. Se forma cuando las moléculas de oxígeno son excitadas lo suficiente para descomponerse en oxígeno atómico, de dos niveles energéticos diferentes, y las colisiones entre los diferentes átomos son los que generan la formación del ozono.</p>
+            <p class="questions__show">El ozono (O3) es una molécula compuesta por tres átomos de oxígeno. Se forma
+              cuando las moléculas de oxígeno son excitadas lo suficiente para descomponerse en oxígeno atómico, de dos
+              niveles energéticos diferentes, y las colisiones entre los diferentes átomos son los que generan la
+              formación del ozono.</p>
           </div>
         </article>
 
@@ -285,40 +295,41 @@ El Ozono es el desinfectante natural más poderoso sobre la Tierra.">
               </span>
             </h3>
 
-            <p class="questions__show">Por su propia naturaleza, el ozono es altamente oxidante, por lo que se encarga de desinfectar, purificar y eliminar microorganismos patógenos como virus, bacterias, hongos, moho, esporas…
+            <p class="questions__show">Por su propia naturaleza, el ozono es altamente oxidante, por lo que se encarga
+              de desinfectar, purificar y eliminar microorganismos patógenos como virus, bacterias, hongos, moho,
+              esporas…
 
-              El ozono puede eliminar los malos olores atacando directamente sobre la causa que los provoca (sustancias pestilentes), y sin añadir ningún otro olor para intentar encubrirlo, como hacen los ambientadores.
-              
-              A diferencia de otros desinfectantes, el ozono no deja residuos químicos puesto que es un gas inestable y se descompone rápidamente en oxígeno por efecto de la luz, calor, choques electrostáticos, etc.
-              
-              La molécula de ozono es muy inestable y su vida media en el ambiente es de 30 a 60 minutos. Cuando se oxida deja en las superficies iones de oxígeno que son potentes biocidas en altas concentraciones. Por ello, el ozono también es conocido por su poder desinfectante (biocida) contra microorganismos</p>
+              El ozono puede eliminar los malos olores atacando directamente sobre la causa que los provoca (sustancias
+              pestilentes), y sin añadir ningún otro olor para intentar encubrirlo, como hacen los ambientadores.
+
+              A diferencia de otros desinfectantes, el ozono no deja residuos químicos puesto que es un gas inestable y
+              se descompone rápidamente en oxígeno por efecto de la luz, calor, choques electrostáticos, etc.
+
+              La molécula de ozono es muy inestable y su vida media en el ambiente es de 30 a 60 minutos. Cuando se
+              oxida deja en las superficies iones de oxígeno que son potentes biocidas en altas concentraciones. Por
+              ello, el ozono también es conocido por su poder desinfectante (biocida) contra microorganismos</p>
           </div>
         </article>
 
         <article class="questions__padding">
           <div class="questions__answer">
-            <h3 class="questions__title">¿Qué es CSS GRID?
+            <h3 class="questions__title">¿Por qué desinfecta el ozono?
               <span class="questions__arrow">
                 <img src="assets/images/arrow.svg" class="questions__img">
               </span>
             </h3>
 
-            <p class="questions__show">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
-              facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates
-              eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit
-              amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo
-              nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis
-              quam atque?</p>
+            <p class="questions__show">En concreto, el ozono es un germicida extremadamente efectivo contra virus y
+              bacterias, que destruye las partículas del virus a través de mecanismos de oxidación.</p>
           </div>
         </article>
       </section>
 
       <section class="questions__offer">
-        <h2 class="subtitle">¿Estas listo para aprender CSS?</h2>
-        <p class="questions__copy">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet ratione
-          architecto magnam, officiis ex porro vero est voluptates quaerat quibusdam illo veniam reprehenderit
-          eius atque tempora iure ab non autem.</p>
-        <a href="#" class="cta">Aprende ahora</a>
+        <h2 class="subtitle">Patrocinado y Distribuido por</h2>
+        <img class="offer__img" src="assets/images/colorline.jpg" alt="">
+        <!--<p class="questions__copy">Patrocinado y Distribuido por</p>
+        <a href="assets/apk/OZYTec.apk" class="cta">Descargar</a>-->
       </section>
     </section>
   </main>
