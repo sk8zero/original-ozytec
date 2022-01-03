@@ -267,10 +267,10 @@ body {
 .price__element--best{
   width: 370px;
   padding: 60px 40px;
-  background-color: #FF7143;
+  background-image: linear-gradient(#21618C , #27B6C9);
   --color-plan: rgb(255 255 255 / 75%);
   --color-price: #fff;
-  --bg-cta: #9F3919;
+  --bg-cta: #2fb4cc;
   --color-cta: #FFF;
   --color-items: #fff;
 }
@@ -283,6 +283,7 @@ body {
 }
 
 .price__price{
+  margin-top: 20px;
   font-size: 2.5rem;
   color: var(--color-price);
 }
@@ -306,15 +307,14 @@ body {
   font-weight: 600;
   color: var(--color-cta);
   box-shadow: 0 0 1px rgba(0, 0, 0, .5);
-  transition: all 400ms ease;
+  transition: all 800ms ease;
 
 }
 
 .price__cta:hover{
   background: #2fb4cc;
   color: white;
-  box-shadow: 2px 2px;
-
+  box-shadow: 1px 1px;
 }
 
 /* Testimony */
